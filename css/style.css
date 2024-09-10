@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5d04c;
+    gap: 25px;
+}
+
+.container{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: right;
+    padding: 30px;
+    width:400px;
+    margin-top: 20px; 
+    border-radius: 20px;
+    box-shadow: 8px 8px black;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.image1{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: 600px;
+}
+.learning{
+    height:30px;
+    width:80px;
+    background-color: #f6d04b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 2px;
+    font-weight: 600;
+    margin: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p,h1{
+    margin: 10px;
+    padding-bottom: 10px;
+}
+.date{
+    font-family: sans-serif;
+}
+.text{
+    font-family: "Outfit", sans-serif;
+}
+.last{
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+.image2{
+    height: 50px;
+    width: 50px;
+}
+.name{
+    font-weight:700;
+    font-size: 18px;
+}
+.para{
+    color:#a9a9a9;
+    font-family:sans-serif;
+    font-size: large;
+}
+.title:hover{
+    color: #f6d04b;
+}
+a{
+    color: black;
+}
+.foot{
+    font-weight: 100;
+    font-size: smaller;
+}
+
+@media  (max-width: 600px) {
+    .container {
+      width: 300px;
+      padding: 20px;
+    }
+    .image1{
+        width:300px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .para{
+        font-size: 15px;
+    }
+    .name{
+        font-size: 15px;
+    }
+  }
+
